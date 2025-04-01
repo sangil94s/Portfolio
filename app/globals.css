@@ -117,6 +117,6 @@
 @layer base {
   html,
   body {
-    @apply flex flex-col h-full;
+    @apply flex flex-col h-full bg-black;
   }
 }
