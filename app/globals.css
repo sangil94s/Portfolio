@@ -113,19 +113,10 @@
 }
 
 
+
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
   html,
   body {
-    @apply w-full h-full m-0 p-0;
-    @apply bg-black text-foreground;
-    @apply flex items-center justify-center;
-  }
-
-  #__next {
-    @apply w-full max-w-[1920px] min-h-full mx-auto;
-    @apply flex flex-col;
+    @apply flex flex-col h-full;
   }
 }
