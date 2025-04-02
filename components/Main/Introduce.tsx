@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Introduce() {
   return (
-    <div className="flex flex-row justify-center items-center mt-2 bg-gray-100 w-full h-full lg:w-[1920px] lg:h-[270px]">
+    <div className="flex flex-col justify-center items-center mt-2 bg-gray-100 w-full h-full lg:flex-row lg:w-[1920px] lg:h-[270px]">
       <section className="border border-slate-300 rounded-full w-[200px] h-[200px]">
         <Image src={'/Profile.png'} width={200} height={200} alt="프로필 이미지" />
       </section>
