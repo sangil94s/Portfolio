@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: '한상일 포트폴리오',
+  title: '프론트엔드 한상일 | 포트폴리오',
   description: '한상일 포트폴리오 입니다.',
 };
 
