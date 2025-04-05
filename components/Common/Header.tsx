@@ -7,8 +7,8 @@ export default function Header() {
     <header className="w-full h-10 bg-black fixed top-0 left-0 right-0 z-20 flex flex-row justify-between">
       <h1 className="text-xl text-white font-bold p-2"></h1>
 
-      <section className="flex gap-2 p-2">
-        <Link href="#skill" className="text-white font-bold">
+      <section className="flex gap-8 py-2 px-18 lg:px-8 lg:gap-10">
+        <Link href="#skills" className="text-white font-bold">
           기술
         </Link>
         <Link href="#career" className="text-white font-bold">
