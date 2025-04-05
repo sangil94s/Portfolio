@@ -11,7 +11,7 @@ export default function Skill() {
           <h4 className="text-white text-center text-xl font-bold p-4">Skill</h4>
           <hr className="flex-grow border-gray-300" />
         </section>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 place-items-center max-w-screen-md m-auto">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-6 place-items-center max-w-screen-md m-auto">
           <div className="relative group">
             <Image
               src={'/skill/Next.png'}

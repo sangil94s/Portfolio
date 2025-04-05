@@ -14,7 +14,7 @@ export default function Contact() {
         </section>
 
         <p className="py-2 text-white text-sm lg:text-base text-center">
-          봐주셔서 감사드리며, 아래를 통해 저를 더 확인할 수 있습니다.
+          아래를 통해 저를 더 확인할 수 있습니다.
         </p>
 
         <section className="flex flex-row justify-center items-center gap-6 my-4 text-white text-xl lg:text-4xl">
