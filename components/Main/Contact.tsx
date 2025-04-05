@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillMail } from 'react-icons/ai';
-import { RiNotionFill } from 'react-icons/ri';
 
 export default function Contact() {
   return (
@@ -24,9 +23,6 @@ export default function Contact() {
           </Link>
           <Link href="mailto:bsc5732@naver.com">
             <AiFillMail />
-          </Link>
-          <Link href="https://precious-hyssop-b3b.notion.site/2-1c850042c17080c8a979c087ba43d1f9?pvs=4">
-            <RiNotionFill />
           </Link>
         </section>
       </div>

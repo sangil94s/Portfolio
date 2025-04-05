@@ -11,7 +11,7 @@ export default function Skill() {
           <h4 className="text-white text-center text-xl font-bold p-4">Skill</h4>
           <hr className="flex-grow border-gray-300" />
         </section>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 place-items-center max-w-screen-md m-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 place-items-center max-w-screen-md m-auto">
           <div className="relative group">
             <Image
               src={'/skill/Next.png'}
@@ -20,7 +20,7 @@ export default function Skill() {
               alt="Next-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Next.js
             </p>
           </div>
@@ -32,13 +32,13 @@ export default function Skill() {
               alt="react-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               React
             </p>
           </div>
           <div className="relative group">
             <Image src={'/skill/ts.png'} width={80} height={80} alt="ts-logo" className="bg-white rounded-xl my-1" />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Typescript
             </p>
           </div>
@@ -50,10 +50,35 @@ export default function Skill() {
               alt="Tailwind-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               TailwindCSS
             </p>
           </div>
+          <div className="relative group">
+            <Image
+              src={'/skill/react-query.png'}
+              width={80}
+              height={80}
+              alt="React-Query-logo"
+              className="bg-white rounded-xl my-1"
+            />
+            <p className="bg-white z-20 text-sm text-center font-bold rounded-xl w-max p-1 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              React-Query
+            </p>
+          </div>
+          <div className="relative group">
+            <Image
+              src={'/skill/react-hook-form.png'}
+              width={80}
+              height={80}
+              alt="React-Hook-form-logo"
+              className="bg-white rounded-xl my-1"
+            />
+            <p className="bg-white z-20 text-sm text-center font-bold rounded-xl w-max p-1 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              React-Hook-Form
+            </p>
+          </div>
+
           <div className="relative group">
             <Image
               src={'/skill/vite.png'}
@@ -62,7 +87,7 @@ export default function Skill() {
               alt="Vite-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Vite
             </p>
           </div>
@@ -75,7 +100,7 @@ export default function Skill() {
               alt="Zustand-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Zustand
             </p>
           </div>
@@ -87,7 +112,7 @@ export default function Skill() {
               alt="Express-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Express.js
             </p>
           </div>
@@ -99,7 +124,7 @@ export default function Skill() {
               alt="MySQL-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               MySQL
             </p>
           </div>
@@ -111,8 +136,14 @@ export default function Skill() {
               alt="Prisma-logo"
               className="bg-white rounded-xl my-1"
             />
-            <p className="bg-white text-sm text-center rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Prisma
+            </p>
+          </div>
+          <div className="relative group">
+            <Image src={'/skill/gcp.png'} width={80} height={80} alt="GCP-logo" className="bg-white rounded-xl my-1" />
+            <p className="bg-white text-sm text-center font-bold rounded-xl w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Google Cloud Platform
             </p>
           </div>
         </div>
