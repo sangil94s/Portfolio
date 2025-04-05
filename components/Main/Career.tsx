@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function Career() {
   return (
     <>
-      <div className="bg-black w-full h-full lg:w-[1920px] lg:h-[270px]">
+      <div className="bg-black w-full h-full lg:w-[1920px] lg:h-[270px]" id="career">
         <section className="flex items-center justify-center m-auto my-4 w-6/12">
           <hr className="flex-grow border-gray-300" />
           <h1 className="p-4 text-white text-2xl text-center font-bold">Career</h1>

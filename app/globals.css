@@ -116,5 +116,6 @@
   html,
   body {
     @apply flex flex-col h-full bg-black;
+    scroll-behavior: smooth;
   }
 }
