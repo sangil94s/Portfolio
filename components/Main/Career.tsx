@@ -36,7 +36,10 @@ export default function Career() {
 
                     <li className="p-1">EJS를 고수하던 회사의 기술 스택을 React 기반으로 개선</li>
 
-                    <li className="p-1">개발한 프로젝트가 내부 백오피스로 사용, 6개월간 속도 불만 0건 유지</li>
+                    <li className="p-1">
+                      개발한 프로젝트가 내부 백오피스로 사용,{' '}
+                      <span className="font-bold underline">6개월간 속도 불만 0건 유지</span>
+                    </li>
                   </ul>
                 </PopoverContent>
               </Popover>
