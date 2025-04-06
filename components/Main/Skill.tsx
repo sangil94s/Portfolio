@@ -139,7 +139,7 @@ export default function Skill() {
               </div>
               <div className="relative group">
                 <Image
-                  src={'/skill/prisma.png'}
+                  src={'/skill/Prisma.png'}
                   width={80}
                   height={80}
                   alt="Prisma-logo"
