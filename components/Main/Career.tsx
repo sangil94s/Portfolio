@@ -22,6 +22,7 @@ export default function Career() {
               <h4 className="text-white text-xl font-bold p-2">킴스인더스트리</h4>
               <p className="text-white text-xs font-bold px-2 py-6">연구개발부 소프트웨어 2팀</p>
               <Link
+                aria-label="업무 관련 한 페이지에 몰아서 정리한 부분"
                 target="_blank"
                 href="https://precious-hyssop-b3b.notion.site/1d050042c170807386a6fbd1ac55a893?pvs=4"
               >

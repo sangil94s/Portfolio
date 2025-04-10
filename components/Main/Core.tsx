@@ -24,6 +24,7 @@ export default function Core() {
             <p className="text-white text-xl text-center font-bold p-2">기술 전환 주도</p>
             <p className="text-white text-xs font-bold p-2">입사 후 EJS → React 전환 주도</p>
             <Link
+              aria-label="입사 후 EJS에서 React전환기 로 가는 노션 링크"
               target="_blank"
               href="https://precious-hyssop-b3b.notion.site/EJS-React-1be50042c1708059bf84fa78ad718e57?pvs=4"
             >
@@ -45,6 +46,7 @@ export default function Core() {
             <p className="text-white text-xl text-center font-bold p-1">API 문서화 도입</p>
             <p className="text-white text-xs text-center font-bold p-2">문서화 없던 개발팀에 도입</p>
             <Link
+              aria-label="회사에 API 문서화 도입기 노션 링크"
               target="_blank"
               href="https://precious-hyssop-b3b.notion.site/API-1be50042c1708091ae92f3df74ffe7cd?pvs=4"
             >
@@ -66,6 +68,7 @@ export default function Core() {
             <p className="text-white text-xs font-bold p-2">레거시 프로젝트의 단점을 신규 프로젝트에서 90% 개선</p>
 
             <Link
+              aria-label="신규 프로젝트에서 성능 개선기 로 가는 노션 링크"
               target="_blank"
               href="https://precious-hyssop-b3b.notion.site/React-1be50042c1708056bc1ce79bc6d2166c?pvs=4"
             >

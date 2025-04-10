@@ -11,6 +11,7 @@ export default function Introduce() {
         먼저 나서서 제안하거나 진행하는 주도적인 사람입니다.
       </p>
       <Link
+        aria-label="이력서 보기"
         className="text-white p-2 font-bold"
         target="_blank"
         href="https://precious-hyssop-b3b.notion.site/2-1c850042c17080c8a979c087ba43d1f9?pvs=4"
