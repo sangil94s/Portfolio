@@ -22,7 +22,7 @@ export default function Core() {
               className="m-auto border border-slate-300 rounded-xl"
             />
             <p className="text-white text-xl text-center font-bold p-2">기술 전환 주도</p>
-            <p className="text-white text-xs font-bold p-2">입사 후 EJS → React 전환 주도</p>
+            <p className="text-white text-center text-xs font-bold p-2">입사 후 EJS → React 전환 주도</p>
             <Link
               aria-label="입사 후 EJS에서 React전환기 로 가는 노션 링크"
               target="_blank"
@@ -65,7 +65,9 @@ export default function Core() {
               className="m-auto border border-slate-300 rounded-xl"
             />
             <p className="text-white text-xl text-center font-bold p-1">프로젝트 성능 개선</p>
-            <p className="text-white text-xs font-bold p-2">레거시 프로젝트의 단점을 신규 프로젝트에서 90% 개선</p>
+            <p className="text-white text-center text-xs font-bold p-2">
+              레거시 프로젝트의 단점을 신규 프로젝트에서 90% 개선
+            </p>
 
             <Link
               aria-label="신규 프로젝트에서 성능 개선기 로 가는 노션 링크"

@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import { Button } from '../ui/button';
+import { RiNotionFill } from 'react-icons/ri';
+
 // 아마도 첫 소개에 배치되는 부분
 export default function Introduce() {
   return (
@@ -16,7 +19,9 @@ export default function Introduce() {
         target="_blank"
         href="https://precious-hyssop-b3b.notion.site/2-1c850042c17080c8a979c087ba43d1f9?pvs=4"
       >
-        이력서 보러가기
+        <Button variant="secondary" className="w-full m-1 font-bold">
+          <RiNotionFill /> 이력서 보러가기
+        </Button>
       </Link>
     </div>
   );
