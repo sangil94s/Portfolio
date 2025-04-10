@@ -36,14 +36,14 @@ export default function Core() {
 
           <div className="w-5/6">
             <Image
-              src={'/skill/react.png'}
+              src={'/data/doc.png'}
               width={200}
               height={200}
-              alt="React"
+              alt="Doc"
               className="m-auto border border-slate-300 rounded-xl"
             />
             <p className="text-white text-xl text-center font-bold p-1">API 문서화 도입</p>
-            <p className="text-white text-xs font-bold p-2">문서화를 별도로 안 하던 개발팀에 문서화 도입</p>
+            <p className="text-white text-xs text-center font-bold p-2">문서화 없던 개발팀에 도입</p>
             <Link
               target="_blank"
               href="https://precious-hyssop-b3b.notion.site/API-1be50042c1708091ae92f3df74ffe7cd?pvs=4"
@@ -56,7 +56,7 @@ export default function Core() {
 
           <div className="w-5/6">
             <Image
-              src={'/skill/react.png'}
+              src={'/data/gear.png'}
               width={200}
               height={200}
               alt="React"

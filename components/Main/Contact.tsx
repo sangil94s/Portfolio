@@ -14,12 +14,11 @@ export default function Contact() {
         </section>
 
         <section className="flex flex-col justify-center items-center lg:h-[240px]">
-          <p className="py-2 text-white text-sm lg:text-base text-center">아래를 통해 저를 더 확인할 수 있습니다.</p>
+          <p className="py-2 text-white text-sm lg:text-base text-center">
+            봐주셔서 감사드리며 메일을 통해 연락을 기다리고 있습니다.
+          </p>
 
           <section className="flex flex-row justify-center items-center gap-6 my-4 text-white text-xl lg:text-4xl">
-            <Link href="https://github.com/sangil94s">
-              <AiFillGithub />
-            </Link>
             <Link href="mailto:bsc5732@naver.com">
               <AiFillMail />
             </Link>

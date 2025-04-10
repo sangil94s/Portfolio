@@ -1,7 +1,7 @@
-import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover';
 import { Button } from '../ui/button';
-import { BsCardList } from 'react-icons/bs';
 import { Motions } from '../Etc/motion';
+import { RiNotionFill } from 'react-icons/ri';
+import Link from 'next/link';
 
 // 경력 사항 소개 부분
 
@@ -21,28 +21,15 @@ export default function Career() {
             <section className="p-2">
               <h4 className="text-white text-xl font-bold p-2">킴스인더스트리</h4>
               <p className="text-white text-xs font-bold px-2 py-6">연구개발부 소프트웨어 2팀</p>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button className="bg-black font-bold cursor-pointer">
-                    <BsCardList />
-                    성과 간단히 보기
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-9/12 lg:w-full bg-gray-900">
-                  <ul className="list-disc m-1 p-2  text-white">
-                    <li className="p-1">진행한 프로젝트 중 2개 프로젝트를 배포까지 담당</li>
-
-                    <li className="p-1">회사의 유일한 웹 개발자로 프론트와 백엔드 모두 담당</li>
-
-                    <li className="p-1">EJS를 고수하던 회사의 기술 스택을 React 기반으로 개선</li>
-
-                    <li className="p-1">
-                      개발한 프로젝트가 내부 백오피스로 사용,{' '}
-                      <span className="font-bold underline">6개월간 속도 불만 0건 유지</span>
-                    </li>
-                  </ul>
-                </PopoverContent>
-              </Popover>
+              <Link
+                target="_blank"
+                href="https://precious-hyssop-b3b.notion.site/1d050042c170807386a6fbd1ac55a893?pvs=4"
+              >
+                <Button variant="secondary" className="w-full m-1 font-bold">
+                  <RiNotionFill />
+                  자세히 보기
+                </Button>
+              </Link>
             </section>
           </div>
         </Motions>
