@@ -15,9 +15,9 @@ export default function Introduce() {
       </p>
       <Link
         aria-label="이력서 보기"
-        className="text-white p-2 font-bold"
+        className="text-white p-2 font-bold cursor-pointer"
         target="_blank"
-        href="https://precious-hyssop-b3b.notion.site/2-1c850042c17080c8a979c087ba43d1f9?pvs=4"
+        href="https://precious-hyssop-b3b.notion.site/REV5-_2-XXX-1-1d450042c17080718ce8c89220019741?pvs=4"
       >
         <Button variant="secondary" className="w-full m-1 font-bold">
           <RiNotionFill /> 이력서 보러가기

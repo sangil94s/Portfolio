@@ -24,6 +24,7 @@ export default function Career() {
               <Link
                 aria-label="업무 관련 한 페이지에 몰아서 정리한 부분"
                 target="_blank"
+                className="cursor-pointer"
                 href="https://precious-hyssop-b3b.notion.site/1d050042c170807386a6fbd1ac55a893?pvs=4"
               >
                 <Button variant="secondary" className="w-full m-1 font-bold">

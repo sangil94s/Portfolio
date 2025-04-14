@@ -19,7 +19,7 @@ export default function Contact() {
           </p>
 
           <section className="flex flex-row justify-center items-center gap-6 my-4 text-white text-xl lg:text-4xl">
-            <Link href="mailto:bsc5732@naver.com">
+            <Link href="mailto:bsc7417@gmail.com">
               <AiFillMail />
             </Link>
           </section>
