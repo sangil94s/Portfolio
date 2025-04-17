@@ -26,10 +26,9 @@ export default function Core() {
             <Link
               aria-label="입사 후 EJS에서 React전환기 로 가는 노션 링크"
               target="_blank"
-              className="cursor-pointer"
               href="https://precious-hyssop-b3b.notion.site/EJS-React-1be50042c1708059bf84fa78ad718e57?pvs=4"
             >
-              <Button variant="secondary" className="w-full m-1 font-bold">
+              <Button variant="secondary" className="w-full m-1 font-bold cursor-pointer">
                 <RiNotionFill />
                 자세히 보기
               </Button>
@@ -49,10 +48,9 @@ export default function Core() {
             <Link
               aria-label="회사에 API 문서화 도입기 노션 링크"
               target="_blank"
-              className="cursor-pointer"
               href="https://precious-hyssop-b3b.notion.site/API-1be50042c1708091ae92f3df74ffe7cd?pvs=4"
             >
-              <Button variant="secondary" className="w-full m-1 font-bold">
+              <Button variant="secondary" className="w-full m-1 font-bold cursor-pointer">
                 <RiNotionFill /> 자세히 보기
               </Button>
             </Link>
@@ -67,17 +65,14 @@ export default function Core() {
               className="m-auto border border-slate-300 rounded-xl"
             />
             <p className="text-white text-xl text-center font-bold p-1">프로젝트 성능 개선</p>
-            <p className="text-white text-center text-xs font-bold p-2">
-              레거시 프로젝트의 단점을 신규 프로젝트에서 90% 개선
-            </p>
+            <p className="text-white text-center text-xs font-bold p-2">레거시의 단점을 신규 프로젝트에 개선</p>
 
             <Link
               aria-label="신규 프로젝트에서 성능 개선기 로 가는 노션 링크"
               target="_blank"
-              className="cursor-pointer"
               href="https://precious-hyssop-b3b.notion.site/React-1be50042c1708056bc1ce79bc6d2166c?pvs=4"
             >
-              <Button variant="secondary" className="w-full m-1 font-bold">
+              <Button variant="secondary" className="w-full m-1 font-bold cursor-pointer">
                 <RiNotionFill /> 자세히 보기
               </Button>
             </Link>
